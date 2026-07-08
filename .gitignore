@@ -1,0 +1,42 @@
+# Entorno virtual
+venv_meteo/
+
+# Cachés de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+
+# Configuración local
+.env
+*.env
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Datos pesados o descargados
+Datos/*.zip
+Datos/*.nc
+Datos/*.grib
+Datos/*.grb
+Datos/*.tif
+Datos/*.tiff
+Datos/*.hdf
+Datos/*.h5
+
+# Salidas generadas
+Salidas/
+Imagenes/
+
+# Temporales y logs
+*.log
+*.tmp
+*.bak
